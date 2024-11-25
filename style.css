@@ -1,0 +1,96 @@
+@font-face{
+    font-family: Poppins;
+    src: url(assets/fonts/Poppins-Regular.ttf);
+}
+*{
+    font-family: Poppins;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+.container{
+    background-color: #ffffff;
+    width: 420px;
+    max-width: 80%;
+    padding: 30px;
+    position: relative;
+    border-radius: 10px;
+    border-bottom-right-radius: 150px;
+
+}
+input{
+    width: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input::selection{
+    outline: none;
+    border: 1px solid #864cff;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #864cff;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px; */
+    position: absolute;
+    right: 30px;
+    top: 80px;
+}
+button:hover{
+    background-color: #151515;
+}
+button img{
+    width: 30px;
+    height: 30px;
+}
+small{
+    color: red;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.output{
+    line-height: 20px;
+}
+.output span {
+    font-size: 3.75rem;
+    color: #864cff;
+    font-style: italic;
+    font-weight: 1000;
+}
+.output h1{
+    font-size: 3.75rem;
+    font-weight: 12000;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.inputContainer span{
+    font-size: 10px;
+    font-weight: 900;
+    color: #787878;
+}
+.inputFlex{
+    display: flex;
+    border-bottom: 2px solid #f0f0f0;
+    margin-bottom: 20px;
+}
+input::placeholder{
+    font-size: 20px;
+    font-weight: 1000;
+    color: #898989;
+}
